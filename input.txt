@@ -1,0 +1,11 @@
+segun "opcion" hacer {
+  caso "a":
+    imprimir("Seleccionaste A")
+    salir
+  caso "b":
+    imprimir("Seleccionaste B")
+    salir
+  defecto:
+    imprimir("Opción no válida")
+    salir
+} finsgun
